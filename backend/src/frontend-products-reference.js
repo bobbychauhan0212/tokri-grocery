@@ -1,0 +1,70 @@
+export const categories = [
+  { id: 'fruits-vegetables', name: 'Fruits and vegetables' },
+  { id: 'dairy-eggs', name: 'Dairy and eggs' },
+  { id: 'grains-pulses', name: 'Grains and pulses' },
+  { id: 'snacks', name: 'Snacks' },
+  { id: 'beverages', name: 'Beverages' },
+]
+
+// Local product photos — drop files into frontend/public/images/
+// using the exact filenames listed in frontend/public/images/README.md
+
+export const products = [
+  // Fruits and vegetables
+  { id: 'p1', name: 'Tomatoes', category: 'fruits-vegetables', unit: 'per kg', price: 40, icon: '🍅', color: '#fbe4de', image: '/images/tomatoes.jpg', description: 'Fresh, vine-ripened tomatoes sourced daily from local farms.' },
+  { id: 'p2', name: 'Bananas', category: 'fruits-vegetables', unit: 'per dozen', price: 55, icon: '🍌', color: '#fbf1d9', image: '/images/bananas.jpg', description: 'Sweet, ripe bananas — a quick energy snack any time of day.' },
+  { id: 'p3', name: 'Spinach', category: 'fruits-vegetables', unit: 'per bunch', price: 20, icon: '🥬', color: '#e6f1e0', image: '/images/spinach.jpg', description: 'Tender leafy spinach, washed and ready to cook.' },
+  { id: 'p4', name: 'Onions', category: 'fruits-vegetables', unit: 'per kg', price: 30, icon: '🧅', color: '#f3e6f0', image: '/images/onions.jpg', description: 'Firm, everyday cooking onions.' },
+  { id: 'p5', name: 'Potatoes', category: 'fruits-vegetables', unit: 'per kg', price: 28, icon: '🥔', color: '#f1e6d6', image: '/images/potatoes.jpg', description: 'All-purpose potatoes, great for curries and fries.' },
+  { id: 'p6', name: 'Carrots', category: 'fruits-vegetables', unit: 'per kg', price: 35, icon: '🥕', color: '#fbe8d2', image: '/images/carrots.jpg', description: 'Crunchy, sweet carrots, freshly harvested.' },
+  { id: 'p7', name: 'Apples', category: 'fruits-vegetables', unit: 'per kg', price: 180, icon: '🍎', color: '#fbe1e1', image: '/images/apples.jpg', description: 'Crisp, juicy apples, hand-picked and sorted.' },
+  { id: 'p8', name: 'Oranges', category: 'fruits-vegetables', unit: 'per kg', price: 90, icon: '🍊', color: '#fbe9d6', image: '/images/oranges.jpg', description: 'Sweet, tangy oranges, rich in vitamin C.' },
+  { id: 'p9', name: 'Cucumber', category: 'fruits-vegetables', unit: 'per kg', price: 25, icon: '🥒', color: '#e6f1e0', image: '/images/cucumber.jpg', description: 'Cool, crisp cucumbers for salads and raita.' },
+  { id: 'p10', name: 'Garlic', category: 'fruits-vegetables', unit: '250 g pack', price: 45, icon: '🧄', color: '#f3f1e6', image: '/images/garlic.jpg', description: 'Fresh garlic bulbs, essential for everyday cooking.' },
+  { id: 'p11', name: 'Green chillies', category: 'fruits-vegetables', unit: '100 g pack', price: 15, icon: '🌶️', color: '#e6f1e0', image: '/images/green-chillies.jpg', description: 'Fresh, spicy green chillies.' },
+  { id: 'p12', name: 'Lemons', category: 'fruits-vegetables', unit: 'pack of 6', price: 30, icon: '🍋', color: '#fbf1d9', image: '/images/lemons.jpg', description: 'Juicy lemons for cooking, drinks, and pickles.' },
+  // Dairy and eggs
+  { id: 'p13', name: 'Full cream milk', category: 'dairy-eggs', unit: 'per litre', price: 66, icon: '🥛', color: '#f5f0e0', image: '/images/full-cream-milk.jpg', description: 'Pasteurized full cream milk, delivered chilled.' },
+  { id: 'p14', name: 'Toned milk', category: 'dairy-eggs', unit: 'per litre', price: 54, icon: '🥛', color: '#f5f0e0', image: '/images/toned-milk.jpg', description: 'Lighter toned milk for everyday use.' },
+  { id: 'p15', name: 'Farm eggs', category: 'dairy-eggs', unit: 'pack of 12', price: 84, icon: '🥚', color: '#f5ecd8', image: '/images/farm-eggs.jpg', description: 'Free-range eggs, medium size, pack of 12.' },
+  { id: 'p16', name: 'Paneer', category: 'dairy-eggs', unit: '200 g pack', price: 90, icon: '🧀', color: '#fbf1d9', image: '/images/paneer.jpg', description: 'Soft, fresh paneer made from full cream milk.' },
+  { id: 'p17', name: 'Cheese slices', category: 'dairy-eggs', unit: 'pack of 10', price: 120, icon: '🧀', color: '#fbf1d9', image: '/images/cheese-slices.jpg', description: 'Ready-to-use cheese slices for sandwiches.' },
+  { id: 'p18', name: 'Curd', category: 'dairy-eggs', unit: '400 g tub', price: 45, icon: '🥣', color: '#f8f5ec', image: '/images/curd.jpg', description: 'Thick, set curd — a household staple.' },
+  { id: 'p19', name: 'Butter', category: 'dairy-eggs', unit: '500 g pack', price: 260, icon: '🧈', color: '#fbf1d9', image: '/images/butter.jpg', description: 'Creamy, salted table butter.' },
+  { id: 'p20', name: 'Ghee', category: 'dairy-eggs', unit: '500 ml jar', price: 320, icon: '🫙', color: '#fbe8d2', image: '/images/ghee.jpg', description: 'Pure desi ghee, slow-cooked for rich aroma.' },
+  { id: 'p21', name: 'Fresh cream', category: 'dairy-eggs', unit: '200 ml pack', price: 60, icon: '🥛', color: '#f5f0e0', image: '/images/fresh-cream.jpg', description: 'Fresh dairy cream for cooking and desserts.' },
+  { id: 'p22', name: 'Buttermilk', category: 'dairy-eggs', unit: '500 ml pack', price: 25, icon: '🥛', color: '#f5f0e0', image: '/images/buttermilk.jpg', description: 'Spiced, chilled buttermilk — a light refresher.' },
+  // Grains and pulses
+  { id: 'p23', name: 'Basmati rice', category: 'grains-pulses', unit: '5 kg pack', price: 640, icon: '🍚', color: '#f1eddc', image: '/images/basmati-rice.jpg', description: 'Long-grain aged basmati rice, aromatic when cooked.' },
+  { id: 'p24', name: 'Sona masoori rice', category: 'grains-pulses', unit: '5 kg pack', price: 420, icon: '🍚', color: '#f1eddc', image: '/images/sona-masoori-rice.jpg', description: 'Everyday medium-grain rice for daily meals.' },
+  { id: 'p25', name: 'Toor dal', category: 'grains-pulses', unit: '1 kg pack', price: 165, icon: '🫘', color: '#f5e3c2', image: '/images/toor-dal.jpg', description: 'Split pigeon peas, a kitchen essential for dal.' },
+  { id: 'p26', name: 'Moong dal', category: 'grains-pulses', unit: '1 kg pack', price: 140, icon: '🫘', color: '#f1f0d2', image: '/images/moong-dal.jpg', description: 'Split green gram, light and easy to digest.' },
+  { id: 'p27', name: 'Masoor dal', category: 'grains-pulses', unit: '1 kg pack', price: 130, icon: '🫘', color: '#f6dcd2', image: '/images/masoor-dal.jpg', description: 'Red lentils, quick-cooking and versatile.' },
+  { id: 'p28', name: 'Chana', category: 'grains-pulses', unit: '1 kg pack', price: 120, icon: '🫘', color: '#f1e3c2', image: '/images/chana.jpg', description: 'Whole brown chickpeas, great for curries and salads.' },
+  { id: 'p29', name: 'Rajma', category: 'grains-pulses', unit: '1 kg pack', price: 155, icon: '🫘', color: '#f3dcdc', image: '/images/rajma.jpg', description: 'Red kidney beans for a hearty rajma curry.' },
+  { id: 'p30', name: 'Whole wheat atta', category: 'grains-pulses', unit: '5 kg pack', price: 260, icon: '🌾', color: '#f1e6cf', image: '/images/whole-wheat-atta.jpg', description: 'Stone-ground whole wheat flour for soft rotis.' },
+  { id: 'p31', name: 'Poha', category: 'grains-pulses', unit: '500 g pack', price: 45, icon: '🍚', color: '#f5f1e6', image: '/images/poha.jpg', description: 'Flattened rice, ready in minutes for breakfast.' },
+  { id: 'p32', name: 'Rava (suji)', category: 'grains-pulses', unit: '1 kg pack', price: 60, icon: '🌾', color: '#f1e6cf', image: '/images/rava-suji.jpg', description: 'Fine semolina for upma, halwa, and more.' },
+  { id: 'p33', name: 'Besan', category: 'grains-pulses', unit: '1 kg pack', price: 95, icon: '🌾', color: '#f5e6b8', image: '/images/besan.jpg', description: 'Gram flour for pakoras, dhokla, and curries.' },
+  { id: 'p34', name: 'Rolled oats', category: 'grains-pulses', unit: '1 kg pack', price: 180, icon: '🌾', color: '#f1eddc', image: '/images/rolled-oats.jpg', description: 'Wholesome rolled oats for a quick breakfast.' },
+  // Snacks
+  { id: 'p35', name: 'Potato chips', category: 'snacks', unit: '200 g pack', price: 45, icon: '🍟', color: '#f5e3c2', image: '/images/potato-chips.jpg', description: 'Crunchy, lightly salted potato chips.' },
+  { id: 'p36', name: 'Mixed namkeen', category: 'snacks', unit: '400 g pack', price: 95, icon: '🥨', color: '#f1dfc2', image: '/images/mixed-namkeen.jpg', description: 'A savory mix of lentils, nuts, and spices.' },
+  { id: 'p37', name: 'Digestive biscuits', category: 'snacks', unit: 'pack of 2', price: 60, icon: '🍪', color: '#f1e0c2', image: '/images/digestive-biscuits.jpg', description: 'Wholegrain digestive biscuits, lightly sweet.' },
+  { id: 'p38', name: 'Cream biscuits', category: 'snacks', unit: 'pack of 2', price: 40, icon: '🍪', color: '#f1e0c2', image: '/images/cream-biscuits.jpg', description: 'Sweet cream-filled biscuits, great with tea.' },
+  { id: 'p39', name: 'Chocolate bar', category: 'snacks', unit: '50 g bar', price: 50, icon: '🍫', color: '#e8d8cc', image: '/images/chocolate-bar.jpg', description: 'Smooth milk chocolate bar.' },
+  { id: 'p40', name: 'Popcorn', category: 'snacks', unit: '150 g pack', price: 55, icon: '🍿', color: '#f5f0d8', image: '/images/popcorn.jpg', description: 'Butter-flavored ready-to-eat popcorn.' },
+  { id: 'p41', name: 'Roasted peanuts', category: 'snacks', unit: '200 g pack', price: 40, icon: '🥜', color: '#f1e3c2', image: '/images/roasted-peanuts.jpg', description: 'Crunchy roasted peanuts, lightly salted.' },
+  { id: 'p42', name: 'Banana chips', category: 'snacks', unit: '200 g pack', price: 50, icon: '🍌', color: '#f5f1d2', image: '/images/banana-chips.jpg', description: 'Crispy, salted banana chips.' },
+  { id: 'p43', name: 'Rusk', category: 'snacks', unit: 'pack of 20', price: 45, icon: '🍞', color: '#f1e6cf', image: '/images/rusk.jpg', description: 'Crisp, twice-baked rusk, perfect with chai.' },
+  { id: 'p44', name: 'Papad', category: 'snacks', unit: 'pack of 15', price: 55, icon: '🫓', color: '#f1e6cf', image: '/images/papad.jpg', description: 'Thin, roasted or fried lentil papad.' },
+  // Beverages
+  { id: 'p45', name: 'Orange juice', category: 'beverages', unit: '1 litre', price: 110, icon: '🧃', color: '#fbe8d2', image: '/images/orange-juice.jpg', description: '100% orange juice, no added sugar.' },
+  { id: 'p46', name: 'Mango juice', category: 'beverages', unit: '1 litre', price: 105, icon: '🧃', color: '#fbf1d9', image: '/images/mango-juice.jpg', description: 'Rich, fruity mango juice.' },
+  { id: 'p47', name: 'Green tea', category: 'beverages', unit: 'pack of 25 bags', price: 150, icon: '🍵', color: '#e6f1e0', image: '/images/green-tea.jpg', description: 'Light, antioxidant-rich green tea bags.' },
+  { id: 'p48', name: 'Black tea', category: 'beverages', unit: '250 g pack', price: 130, icon: '🍵', color: '#f1e6cf', image: '/images/black-tea.jpg', description: 'Strong, full-bodied black tea leaves.' },
+  { id: 'p49', name: 'Instant coffee', category: 'beverages', unit: '100 g jar', price: 210, icon: '☕', color: '#e6d8cc', image: '/images/instant-coffee.jpg', description: 'Rich, aromatic instant coffee granules.' },
+  { id: 'p50', name: 'Cola', category: 'beverages', unit: '750 ml bottle', price: 45, icon: '🥤', color: '#f1dcd2', image: '/images/cola.jpg', description: 'Classic fizzy cola, best served chilled.' },
+  { id: 'p51', name: 'Lemon soda', category: 'beverages', unit: '750 ml bottle', price: 40, icon: '🥤', color: '#f1f0d2', image: '/images/lemon-soda.jpg', description: 'Refreshing lemon-flavored soda.' },
+  { id: 'p52', name: 'Coconut water', category: 'beverages', unit: '1 litre pack', price: 90, icon: '🥥', color: '#f1eddc', image: '/images/coconut-water.jpg', description: 'Natural coconut water, no added sugar.' },
+]
